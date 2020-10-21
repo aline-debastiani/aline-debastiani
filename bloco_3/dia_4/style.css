@@ -3,3 +3,17 @@
    color: #483D8B;
    border-bottom: 1px solid gray;
 }
+.nav-links li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#nav {
+    background-color: #008080;
+    border: 1px solid gray;       
+}
+a:-webkit-any-link {
+    color: white;
+}
