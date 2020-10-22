@@ -54,3 +54,6 @@ th {
 tr {
     background-color: coral;
 }
+.bold {
+    font-weight: bold;
+}
