@@ -17,3 +17,27 @@
 a:-webkit-any-link {
     color: white;
 }
+img {
+    height: auto;
+    max-width: 60%;
+}
+.main-title {
+   font-family: 'Merriweather', serif;
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 0.5em;
+   color: #363636;
+   line-height: 1.125;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;    
+}
+p {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #222222;
+}
+#scientific-name {
+    font-style: italic;
+}
