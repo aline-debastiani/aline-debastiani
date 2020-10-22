@@ -5,17 +5,16 @@
 }
 .nav-links li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: inline;
-    color: white;
+    display: inline;    
     margin-right: 20px;
     font-weight: bold;
+}
+a:-webkit-any-link {
+    color: white;
 }
 #nav {
     background-color: #008080;
     border: 1px solid gray;       
-}
-a:-webkit-any-link {
-    color: white;
 }
 img {
     height: auto;
@@ -56,4 +55,27 @@ tr {
 }
 .bold {
     font-weight: bold;
+}
+.referencias {
+    background-color: #008080;    
+}
+.lista-ref {
+    margin-left: 15px;    
+}
+aside {
+    background-color: coral;
+}
+.link-video {
+    margin-left: 15px;
+}
+footer {
+    text-align: right;
+}
+#Contato {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#github {
+    background-color: black;
 }
