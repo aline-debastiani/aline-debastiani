@@ -41,3 +41,16 @@ p {
 #scientific-name {
     font-style: italic;
 }
+.table {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 0;    
+}
+th {
+    text-align: center;
+    padding: 5px;
+    background: #008080;
+}
+tr {
+    background-color: coral;
+}
