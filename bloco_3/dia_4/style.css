@@ -1,0 +1,81 @@
+.header {
+   font-family: sans-serif; 
+   color: #483D8B;
+   border-bottom: 1px solid gray;
+}
+.nav-links li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline;    
+    margin-right: 20px;
+    font-weight: bold;
+}
+a:-webkit-any-link {
+    color: white;
+}
+#nav {
+    background-color: #008080;
+    border: 1px solid gray;       
+}
+img {
+    height: auto;
+    max-width: 60%;
+}
+.main-title {
+   font-family: 'Merriweather', serif;
+   font-size: 32px;
+   font-weight: 600;
+   margin-bottom: 0.5em;
+   color: #363636;
+   line-height: 1.125;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;    
+}
+p {
+    margin: 10px 0;
+    font-size: 17px;
+    color: #222222;
+}
+#scientific-name {
+    font-style: italic;
+}
+.table {
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 0;    
+}
+th {
+    text-align: center;
+    padding: 5px;
+    background: #008080;
+}
+tr {
+    background-color: coral;
+}
+.bold {
+    font-weight: bold;
+}
+.referencias {
+    background-color: #008080;    
+}
+.lista-ref {
+    margin-left: 15px;    
+}
+aside {
+    background-color: coral;
+}
+.link-video {
+    margin-left: 15px;
+}
+footer {
+    text-align: right;
+}
+#Contato {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+#github {
+    background-color: black;
+}
