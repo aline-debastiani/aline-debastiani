@@ -53,9 +53,19 @@
         */
         function changeText() {
             let paragraph = document.getElementsByTagName('p')[1];
-            paragraph.innertText = 'Daqui a 2 anos me vejo trabalhando como programadora, ganhando em dólar e adquirindo meu primeiro carro!'
+            paragraph.innerHTML = "Daqui a 2 anos me vejo trabalhando como programadora, ganhando em dólar e adquirindo meu primeiro carro!"
         }
-        changeText();    
+        changeText();
+
+        function changeSquareToGreen() {
+            let squareYellow = document.getElementsByClassName('main-content')[0];
+            squareYellow.style.background = "rgb(76, 164, 109)";
+        }
+        changeSquareToGreen();
+
+        function changeSquareToWhite() {
+            let squareRed = document.getElementsByClassName('main-content' 'center-content')
+        }
     </script>
   </body>
 </html>
