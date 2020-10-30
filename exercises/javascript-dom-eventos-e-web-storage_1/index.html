@@ -80,7 +80,14 @@
             paragraph.innerHTML = paragraph.innerHTML.toUpperCase();
         }
         parahraphUpperCase();
-        
+
+        function showPAragraphs() {
+            let paragraphs = document.getElementsByTagName('p');
+            for (let index = 0; index < paragraphs.length; index ++) {
+                console.log(paragraphs[index].innerHTML);
+            }
+        }
+        showPAragraphs();
     </script>
   </body>
 </html>
