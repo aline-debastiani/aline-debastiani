@@ -109,8 +109,13 @@
           elementsH3[index].className = 'description';
       }
 
-      let divLeft = document.getElementsByTagName('.left-content')[0];
+      let divLeft = document.getElementsByClassName('left-content')[0];
       elementDivMain.removeChild(divLeft);
+
+      let divRight = document.getElementsByClassName('right-content')[0];
+      divRight.style.marginRight='auto';
+
+      
     
     </script>
   </body>
