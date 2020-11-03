@@ -76,6 +76,14 @@
       let elementDivLeft = document.createElement('div');
       elementDivLeft.className = 'left-content';
       elementDivMain.appendChild(elementDivLeft);
+
+      let elementDivRight = document.createElement('div');
+      elementDivRight.className = 'right-content';
+      elementDivMain.appendChild(elementDivRight);
+
+      let elementImage = document.createElement("img src='https://picsum.photos/200'");
+      elementImage.className = 'small-image';
+      elementDivLeft.appendChild(elementImage);
     
     </script>
   </body>
