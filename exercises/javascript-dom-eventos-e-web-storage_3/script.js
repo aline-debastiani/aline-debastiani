@@ -71,3 +71,14 @@ function displayHolidays() {
     })
 };
 displayHolidays();
+
+function creatFridayButton(buttonName) {
+    let buttonContainer = document.querySelector('.buttons-container');
+    let newButton = document.createElement('button');
+    let newButtonId = 'btn-friday';
+
+    newButton.innerHTML = buttonName;
+    newButton.id = newButtonId;
+    buttonContainer.appendChild(newButton);
+};
+creatFridayButton('Sexta-feira');
