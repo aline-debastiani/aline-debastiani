@@ -36,3 +36,23 @@ window.onload = function () {
         estadoSelect.appendChild(option);
     }
 };
+function validaData(data) {    
+
+    if (!/^(\d{2}\/){2}\d{4}$/.test(data)) return false;
+    let day = parseInt(data.slice(0, 2))
+    let month = parseInt(data.slice(3, 5));
+    let year = parseInt(data.slice(6, 11));
+    if (day <= 0 || day > 31 ||
+    month <= 0 || month > 12 ||
+    year <= 0) return false;
+    return true;
+    }
+    let startDate = document.getElementById('datainicio');
+    startDate.addEventListener('change', function (event) {
+    let date = event.target.value;
+    if (!validaData(date)) {
+    alert('A data inserida é inválida.');
+    event.target.value = '';
+  }
+});
+

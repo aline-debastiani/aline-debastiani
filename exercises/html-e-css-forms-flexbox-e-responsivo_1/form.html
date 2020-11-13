@@ -28,10 +28,20 @@
       <div>
       <span>Tipo:</span>
       <label for="casa">Casa</label>
-      <input type="radio" name="tipo" id="casa" value="casa" checked required/>
+      <input type="radio" name="tipo" id="casa" value="casa" checked required>
       <label for="apt">Apartamento</label>
-      <input type="radio" name="tipo" id="apt" value="apt" required/>
+      <input type="radio" name="tipo" id="apt" value="apt" required>
       </div>
+      <fieldset>
+          <label for="resumo">Resumo do Currículo</label>
+          <input type="textArea" name="resumo" id="resumo" maxlength="1000" required>
+          <label for="cargo">Cargo</label>
+          <input type="text" name="cargo" id="cargo" maxlength="40" required>
+          <label for="description">Descrição do cargo</label>
+          <input type="text" id="description" name="descrição" maxlength="500" required>
+          <label for="datainicio">Data de início</label>
+          <input type="text" id="datainicio" placeholder="dd/mm/aaaa" required>
+      </fieldset>
   </form>
   <script src="script.js"></script>
 </body>
