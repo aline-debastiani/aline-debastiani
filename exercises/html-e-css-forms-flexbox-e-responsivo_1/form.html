@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form action="" method="GET">
+      <fieldset>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" maxlength="40" required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" maxlength="50" required>
+          <label for="cpf">CPF</label>
+          <input type="text" name="cpf" id="cpf" maxlength="11" required>
+          <label for="endereço">Endereço</label>
+          <input type="text" name="endereço" id="endereço" maxlength="200" required>
+          <label for="cidade">Cidade</label>
+          <input type="text" id="cidade" name="cidade" maxlength="28" required>
+          <br>
+          <br>
+          <label for="estados">Estado</label>
+          <select name="estados" id="estados" required>          
+          </select>
+      </fieldset>
+      <div>
+      <span>Tipo:</span>
+      <label for="casa">Casa</label>
+      <input type="radio" name="tipo" id="casa" value="casa" checked required/>
+      <label for="apt">Apartamento</label>
+      <input type="radio" name="tipo" id="apt" value="apt" required/>
+      </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
