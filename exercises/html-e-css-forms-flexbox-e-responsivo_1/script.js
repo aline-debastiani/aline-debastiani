@@ -36,23 +36,53 @@ window.onload = function () {
         estadoSelect.appendChild(option);
     }
 };
-function validaData(data) {    
 
-    if (!/^(\d{2}\/){2}\d{4}$/.test(data)) return false;
-    let day = parseInt(data.slice(0, 2))
-    let month = parseInt(data.slice(3, 5));
-    let year = parseInt(data.slice(6, 11));
-    if (day <= 0 || day > 31 ||
-    month <= 0 || month > 12 ||
-    year <= 0) return false;
-    return true;
+let botaoEnviar = document.querySelector('#submit');
+
+function validacaoData() {
+    let inputData = document.querySelector('#input-data-ini');
+    let data = inputData.value;
+    let dataArray = data.split('/');
+    let dia = parseInt(dataArray[0]);
+    let mes = parseInt(dataArray[1]);
+    let ano = parseInt(dataArray[2]);
+    if (!(dia > 0 && dia <= 31 && mes > 0 && mes <= 12 && ano > 0)) {
+        inputData.classList = 'error';
+        return 'Erro na formatação da data';
     }
-    let startDate = document.getElementById('datainicio');
-    startDate.addEventListener('change', function (event) {
-    let date = event.target.value;
-    if (!validaData(date)) {
-    alert('A data inserida é inválida.');
-    event.target.value = '';
-  }
+    return '';
+}
+
+botaoEnviar.addEventListener('click', function (event) {
+    event.preventDefault();
+    let erro;
+    let erros = '';
+    erro = validacaoData();
+    if (erro != '') {
+        erros += `${erro}\n`
+    }
+    let inputsText = document.querySelectorAll("input[type=text],textarea");
+    for (let index = 0; index < inputsText.length; index++) {
+        let input = inputsText[index];
+        if (input.required) {
+        if (input.value === '') {
+            input.classList.add('error');
+        erros +=`O campo ${input.name} é obrigatório\n`;
+        }    
+        if (input.minlength && input.value.length < input.minlength) {
+            input.classList.add('error');
+        erros +=`O campo ${input.name} deve possuir no minímo ${input.minlength} caracteres\n`;
+        }
+    }
+}
+if (erros !== '') { 
+    alert(erros);   
+} else {
+    let form = document.querySelector('form');
+    form.reset();
+    for (let index = 0; index < inputsText.length; index++) {
+        inputsText[index].classList.remove('error');
+    }
+}
 });
 
