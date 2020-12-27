@@ -25,6 +25,8 @@ const jupiter = {
   },
 };
 
-console.log(planetDistanceFromSun(mars)); // A
-console.log(planetDistanceFromSun(venus)); // B
-console.log(planetDistanceFromSun(jupiter)); // C
+//console.log(planetDistanceFromSun(mars)); // A
+//console.log(planetDistanceFromSun(venus)); // B
+//console.log(planetDistanceFromSun(jupiter)); // C
+
+console.log('The order of execution is:', 'A, B, C');
