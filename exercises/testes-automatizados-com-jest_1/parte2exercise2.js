@@ -10,4 +10,4 @@ const techList = (arrayTechnologies, name) => {
   return technologyList;
 };
 
-module.exports = techList;// techList.js
+module.exports = techList;
