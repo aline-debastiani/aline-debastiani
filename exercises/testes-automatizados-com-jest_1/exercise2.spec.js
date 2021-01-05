@@ -1,4 +1,3 @@
-const { TestScheduler } = require('jest');
 const myRemove = require('./exercise2');
 
 describe('Exercicio 2', () => {
