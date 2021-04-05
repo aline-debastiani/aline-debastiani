@@ -1,3 +1,17 @@
-Estudante de Desenvolvimento Web Full Stack, desenvolvimento de Software na Trybe.
+<h2>Olá,</h2>
 
-A Trybe é uma escola para pessoas que querem construir uma carreira de sucesso em tecnologia e que se compromete integralmente com seus estudantes, pois as pessoas só pagam quando conseguirem um bom trabalho.O programa conta com mais de 1.500 horas de aulas presenciais e on-line e aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodolo-gias ágeis e habilidades comportamentais. O currículo da Trybe foi desenhado em parceria com as maiores em-presas de tecnologia do Brasil e do mundo e ao longo da formação, estudamos JavaScript, HTML, CSS, React, Node, Express.js, SQL, Git, entre outras linguagens e frameworks.
+<h3>Sou Aline Debastiani, formada em Administração de empresas resolvi me tornar desenvolvedora.
+Atualmente sou aluna da Trybe e ao terminar o curso serei Desenvolvedora Full Stack.
+
+Já finalizei os módulos de Fundamentos de Desenvolvimento Web e Front-End.
+</h3>
+
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/html.svg" alt="html">
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/css3.svg" alt="css3">
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/languages/js.svg" alt="js">
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/dev/frameworks/react.svg" alt="react">
+
+Meu Linkedin:
+<a href="https://www.linkedin.com/in/aline-debastiani/">
+<img src="https://github.com/MikeCodesDotNET/ColoredBadges/raw/master/svg/social/linkedin.svg" alt="linkedin">
+</a>
